@@ -1,0 +1,53 @@
+1. String, Integer, String, Float, String
+
+2. A database should be used when there is a large amount of information
+to be stored, and information is being added, removed, or retrieved.
+
+3. SQL is declarative, meaning you state what you want the end result to be
+then SQL goes about it in the most efficent way. Its code is not readable either.
+
+4. There are rows(horizontal) and columns(vertical) that intersect to create cells
+each holding a value. Each column has a label that can be used to specify 
+specific data in the table. You can use queries to specify what and where you are 
+looking for.
+
+5. Tables are made up of rows(horizontal) and columns(vertical). at the top of each
+column there is a title which specifies the kind of data in the column. Where a row 
+and a column intersect a cell is created that holds a value from a string to an object.
+
+6. String, Integer, Object
+
+7. 
+It's asking for all of the dates and all of the amounts in the payment table
+dates         amount
+'2016-05-01'  1500.00,
+'2016-05-10'  37.00,
+'2016-05-15'  124.93,
+'2016-05-23'  54.72,
+
+It's asking for all the amounts in the payments table that are greater thatn 500
+amount
+1500.00
+
+It's asking for all the information in the row where the payee value is Mega Foods
+ ("date",       "payee",                "amount", "memo")
+('2016-05-15', 'Mega Foods',            124.93,  'Groceries')
+
+8. 
+SELECT email, signup
+FROM users
+WHERE user = DeAndre
+("email",                        "signup")
+('datad@comcast.net',            '2008-01-20')
+
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu'
+("userid")
+(1)
+
+SELECT *
+FROM users
+WHERE userid = 4
+("userid", "name",              "email",                        "signup")
+( 4,       'Brandy Boolean',    'bboolean@nasa.gov',            '1999-10-15')
