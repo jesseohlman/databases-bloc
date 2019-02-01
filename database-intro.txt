@@ -1,4 +1,4 @@
-1. String, Integer, String, Float, String
+1. String, Integer, String, Float, Float
 
 2. A database should be used when there is a large amount of information
 to be stored, and information is being added, removed, or retrieved.
